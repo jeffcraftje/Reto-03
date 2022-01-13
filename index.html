@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assetp/style/style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <form class="cont">
+        <div class="content">
+            <h1 id="titulo">CALCULADORA IMC</h1>
+            <div class="formulario">
+                <div class="sex">
+                    <div class="select">
+                        <label for="sex" class="col-25">Sexo</label>
+                        <input type="radio" name="sexo" id="hombre" class="input-hidden" value="Hombre">
+                        <label for="hombre"><img src="./assetp/img/icono-h.png" alt="" required></label>
+                        <input type="radio" name="sexo" id="mujer" class="input-hidden" value="Mujer">
+                        <label for="mujer" id="hm"><img src="./assetp/img/icono-m.png" alt="" required></label>
+                    </div>
+                </div>
+                <div id="edad.">
+                    <label class="col-25" for="edad">Edad </label>
+                    <input class="col-75" id="edad" type="number" placeholder="Ingresa Tu edad">
+                </div>
+                <div id="pes">
+                    <label class="col-25" for="peso">Peso </label>
+                    <input class="col-75" id="peso" type="number" placeholder="Ingresa Peso">
+                    <h3 class="text">KG</h3>
+                </div>
+                <div id="altur">
+                    <label class="col-25" for="edad">Altura </label>
+                    <input class="col-75" id="altura" type="number" placeholder="Ingresa Altura sin punto">
+                    <h3 class="text">CM</h3>
+                </div>
+                <div class="button">
+                    <input type="button" id="mybutton" onclick="calculadora()" value="Calcular IMC">
+                </div>
+            </div>
+        </div>
+    </form>
+    <div id="respuesta">
+        <div class="conten1">
+            <div class="conten">
+                <h1 id="subtitulo">RESULTADO</h1>
+                <H2 id="resultad"></H2>
+            </div>
+            <div class="alerta">
+                <ul>
+                    <li>TU ESTADO ES: <p id="nota"></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="tabla2">
+        <div id="TABLA1">
+            <table class="datosGuardados">
+                <thead>
+                    <tr>
+                        <th>SEXO</th>
+                        <th>EDAD</th>
+                        <th>PESO</th>
+                        <th>ALTURA</Th>
+                        <th>RESULTADO IMC</th>
+                        <th>ESTADO DE SALUD</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla">
+
+                </tbody>
+                <tbody id="init">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="myfirstchart" style="height: 250px;"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+
+    <script src="./assetp/script/main.js"></script>
+</body>
+
+</html>

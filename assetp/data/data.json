@@ -1,0 +1,139 @@
+{
+    "corporal": [
+        {
+            "id": "1",
+            "sex": "mujer",
+            "eda": "21",
+            "pes": "68",
+            "altur": "170",
+            "resultadoIM": "23.58",
+            "resultadoMG": "peso saludable"
+        },
+        {
+            "id": "2",
+            "sex": "hombre",
+            "eda": "20",
+            "pes": "78",
+            "altur": "172",
+            "resultadoIM": "26.37",
+            "resultadoMG": "sobrepeso"
+        },
+        {
+            "id": "3",
+            "sex": "mujer",
+            "eda": "45",
+            "pes": "69",
+            "altur": "150",
+            "resultadoIM": "30.63",
+            "resultadoMG": "obesidad"
+        },
+        {
+            "id": "4",
+            "sex": "hombre",
+            "eda": "28",
+            "pes": "85",
+            "altur": "185",
+            "resultadoIM": "24.84",
+            "resultadoMG": "Peso saludable"
+        },
+        {
+            "id": "5",
+            "sex": "hombre",
+            "eda": "32",
+            "pes": "52",
+            "altur": "155",
+            "resultadoIM": "21.64",
+            "resultadoMG": "Peso saludable"
+            },
+            {
+            "id": "6",
+            "sex": "mujer",
+            "eda": "47",
+            "pes": "74",
+            "altur": "170",
+            "resultadoIM": "25.61",
+            "resultadoMG": "Soblepeso"
+            },
+            {
+            "id": "7",
+            "sex": "hombre",
+            "eda": "20",
+            "pes": "70",
+            "altur": "160",
+            "resultadoIM": "27.34",
+            "resultadoMG": "Soblepeso"
+            },
+            {
+            "id": "8",
+            "sex": "mujer",
+            "eda": "27",
+            "pes": "65",
+            "altur": "175",
+            "resultadoIM": "21.22",
+            "resultadoMG": "Peso saludable"
+            },
+            {
+            "id": "9",
+            "sex": "hombre",
+            "eda": "25",
+            "pes": "95",
+            "altur": "155",
+            "resultadoIM": "39.54",
+            "resultadoMG": "Obesidad"
+            },
+            {
+            "id": "10",
+            "sex": "mujer",
+            "eda": "35",
+            "pes": "45",
+            "altur": "178",
+            "resultadoIM": "14.20",
+            "resultadoMG": "Por debajo del peso"
+            },
+            {
+            "id": "11",
+            "sex": "hombre",
+            "eda": "41",
+            "pes": "65",
+            "altur": "180",
+            "resultadoIM": "20.06",
+            "resultadoMG": "Peso saludable"
+            },
+            {
+            "id": "12",
+            "sex": "mujer",
+            "eda": "30",
+            "pes": "72",
+            "altur": "182",
+            "resultadoIM": "21.74",
+            "resultadoMG": "Peso saludable"
+            },
+            {
+            "id": "13",
+            "sex": "hombre",
+            "eda": "28",
+            "pes": "78",
+            "altur": "175",
+            "resultadoIM": "25.47",
+            "resultadoMG": "Soblepeso"
+            },
+            {
+            "id": "14",
+            "sex": "mujer",
+            "eda": "24",
+            "pes": "80",
+            "altur": "173",
+            "resultadoIM": "26.73",
+            "resultadoMG": "Soblepeso"
+            },
+            {
+            "id": "15",
+            "sex": "hombre",
+            "eda": "46",
+            "pes": "55",
+            "altur": "163",
+            "resultadoIM": "20.70",
+            "resultadoMG": "Peso saludable"
+            }
+    ]
+}
